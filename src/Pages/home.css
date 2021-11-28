@@ -1,0 +1,39 @@
+.overview-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .random-img{
+    align-items: center;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  button{
+    padding: 100px;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .random-img{
+      object-fit: cover;
+      width: 300px;
+      height: 300px;
+    }
+  }
